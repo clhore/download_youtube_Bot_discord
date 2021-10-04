@@ -1,0 +1,8 @@
+{
+   "token": "your bot token",
+   "prefix": "!",
+   "resolution": "mp4_640_360",
+   "id_folder": "id folder drive",
+   "password": "123",
+   "list_file_id": []
+}
