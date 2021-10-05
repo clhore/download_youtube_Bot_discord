@@ -62,3 +62,8 @@
       [2.0] La contraseña default es 123.
       [2.1] Sepuede canviar en el archivo [config.josn]
 ![](https://i.imgur.com/OcGam28.png)
+
+
+## Mejoras a implementar
+      - Uso de thread en la descarga y la subida de archivos en drive.
+      - Optimizar el codico asincrono
