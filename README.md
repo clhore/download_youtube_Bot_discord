@@ -46,7 +46,7 @@
       
       [2.0] Si el archivo sobrepasa los 8MB se subira a Google Drive y te pasara un link
 ![](https://i.imgur.com/x7GsW4Z.png)
-![](https://i.imgur.com/Ulq0KtP.png)
+![](https://i.imgur.com/6BOLGTC.png)
 
 ### !VD
       [1.0] Indica al bot que el link o los links que le pases, tiene que descargarlos en .mp4
@@ -54,7 +54,7 @@
       
       [2.0] Si el archivo sobrepasa los 8MB se subira a Google Drive y te pasara un link
 ![](https://i.imgur.com/tkbPKeU.png)
-![](https://i.imgur.com/4GyGGHl.png)
+![](https://i.imgur.com/CoW7avZ.png)
 
 ### !delete [password]
       [1.0] Este comado elimina los videos subidos en Google Drive y los videos guardados en local en la carpeta video 
