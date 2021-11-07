@@ -1,3 +1,6 @@
+# Codigo conalgunas mejoras y en funcionamiento
+https://replit.com/@adrianlujan/bot-musica#main.py
+
 # download_youtube_Bot_discord
 
 ### Crea un proyecto en https://console.cloud.google.com y habilita la Google Drive API
