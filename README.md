@@ -1,4 +1,4 @@
-# Codigo conalgunas mejoras y en funcionamiento
+# Codigo con mejoras y en funcionamiento
 https://replit.com/@adrianlujan/bot-musica
 
 # download_youtube_Bot_discord
