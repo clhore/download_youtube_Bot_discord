@@ -31,32 +31,9 @@ class DriveFile:
     def searchFile(self, query, mode: str):
         credentials = self.login()
         resultado = []
-        # Archivos con el nombre 'mooncode': title = 'mooncode'
-        # Archivos que contengan 'mooncode' y 'mooncoders': title contains 'mooncode' and title contains 'mooncoders'
-        # Archivos que NO contengan 'mooncode': not title contains 'mooncode'
-        # Archivos que contengan 'mooncode' dentro del archivo: fullText contains 'mooncode'
-        # Archivos en el basurero: trashed=true
-        # Archivos que se llamen 'mooncode' y no esten en el basurero: title = 'mooncode' and trashed = false
         lista_archivos = credentials.ListFile({'q': query}).GetList()
         for f in lista_archivos:
-            # ID Drive
-            print('ID Drive:', f['id'])
-            # Link de visualizacion embebido
-            print('Link de visualizacion embebido:', f['embedLink'])
-            # Nombre del archivo
-            print('Nombre del archivo:', f['title'])
-            # Tipo de archivo
-            print('Tipo de archivo:', f['mimeType'])
-            # Esta en el basurero
-            print('Esta en el basurero:', f['labels']['trashed'])
-            # Fecha de creacion
-            print('Fecha de creacion:', f['createdDate'])
-            # Fecha de ultima modificacion
-            print('Fecha de ultima modificacion:', f['modifiedDate'])
-            # Version
-            print('Version:', f['version'])
-            # Tamanio
-            print('Tamanio:', f['fileSize'])
+
             if mode == 'link':
                 resultado.append({"title": f['title'], "id": f['id'], "link": f['embedLink']})
             else:
