@@ -57,7 +57,7 @@ https://replit.com/@adrianlujan/bot-musica
       
       [2.0] Si el archivo sobrepasa los 8MB se subira a Google Drive y te pasara un link
 ![](https://i.imgur.com/tkbPKeU.png)
-![](https://i.imgur.com/CoW7avZ.png)
+![](https://i.imgur.com/QqTfWL4.png)
 
 ### !delete [password]
       [1.0] Este comado elimina los videos subidos en Google Drive y los videos guardados en local en la carpeta video 
